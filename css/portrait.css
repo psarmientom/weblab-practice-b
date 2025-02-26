@@ -19,10 +19,11 @@ nav ul li{
     padding: 1rem;
     font-size:1.5rem;
     width: 150px;
+    background-color: black;
+    text-align: center;
 }
 nav a{
-    text-decoration: none;
-    background-color: black;
+    text-decoration: none;    
     padding: 10px;
     color:bisque;  
 }
@@ -30,7 +31,7 @@ a{
     color:sienna;
 }
 a:hover{
-    color:rgb(48, 99, 14);
+    color:rgb(255, 255, 255);
 }
 #life, #career{
     display: inline-block;
