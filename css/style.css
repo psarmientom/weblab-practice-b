@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Exo 2", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    color:#414141;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Black Ops One", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #19958a;
+}
+p{
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+.wrap{
+    width: 80%;
+    margin: 5% auto;
+    padding:2rem;
+    border:solid 3px #42dccf;
+    border-radius: 10px;
+}
+a{
+    color: #19958a;
+}
+a:hover{
+    color: #42dccf;
+    text-decoration: none;
+}
