@@ -1,0 +1,38 @@
+body{
+   margin:0;
+   padding:0; 
+}
+.wrapper{
+    background: rgb(54,134,75);
+background: linear-gradient(0deg, rgba(54,134,75,0.4374124649859944) 0%, rgba(255,203,0,0.5410539215686274) 100%);
+padding:3rem;
+}
+h1 span{
+    display:block;
+    font-size: 5rem;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 1rem;
+    font-size:1.5rem;
+    width: 150px;
+}
+nav a{
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    color:bisque;  
+}
+a{
+    color:sienna;
+}
+a:hover{
+    color:rgb(48, 99, 14);
+}
+#life, #career{
+    display: inline-block;
+    width: 40%;
+}

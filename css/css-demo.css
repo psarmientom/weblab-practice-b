@@ -4,6 +4,17 @@
 /* General Settings */
 body{
     padding:30px;
+    font-size:20px;
+    font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Charm", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#0f8789
 }
 .box{
     width:230px;
@@ -130,6 +141,7 @@ table{
 .tableDemo td, .tableDemo th{
     border: solid 2px #2b2b2b;
     padding:20px;
+    font-weight: 900;
 }
 
 /* Hover  */
@@ -156,9 +168,31 @@ a:hover{
     background-image: url(../images/pizza-plate.jpg);
     background-size: cover;
 }
+.hidden{
+    display: none;
+}
 /* Adjacent sibling combinator. (+)
 It combines two sequences of simple selectors having the same parent 
 and the second one must come IMMEDIATELY after the first. */
-.hoverHide:hover + .hidden{
-    
+.hoverShow:hover + .hidden{
+    display: inline-block;
+}
+.bg-hover:hover{
+    background-image: url(../images/pizza-plate.jpg);
+    background-size: cover;
+}
+.bg-opacity:hover{
+    opacity:.5;
+}
+.img-double{
+    padding:10px;
+}
+.img-double img{
+    width:100%;
+}
+.img-double img:hover{
+    opacity:0;
+}
+section{
+    background: #efefef;
 }

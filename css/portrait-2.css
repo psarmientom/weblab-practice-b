@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+/* General  */
+body{
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    color:#FFFFFF;
+    margin:0;
+    font-size:18px;
+    line-height: 1.5;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Koh Santepheap", serif;
+    font-style: normal;
+}
+h1{
+font-size: 2rem;
+margin-top: 0;
+line-height: 1;
+padding: 15px;
+}
+h1 span{
+    display: block;
+    font-size: 5rem;
+}
+h2, h3{
+    background-color: rgba(0, 125, 220, .3);
+    padding: 15px;
+}
+a{
+    color:rgb(255, 240, 188);
+    text-decoration: none;
+}
+a:hover{
+    color:#FFFFFF;
+    
+    text-decoration: underline;
+}
+/* Content  */
+.wrapper{
+    background-color: rgb(21, 45, 69);
+    /* background-image: url(../images/Taylor-3.jpg); */
+    background-blend-mode: soft-light;
+    background-size: cover;
+    /* padding:6rem; */
+}
+/* Header  */
+header{
+    padding:0 2rem;
+}
+header nav ul{
+    list-style: none;
+    text-align: right;
+}
+header nav ul li{
+    display: inline-block;
+    margin: 1rem;
+}
+header nav{
+    font-size:1.5rem;
+}
+/* Main  */
+main, header nav{
+    width: 80%;
+    margin:auto;
+}
+main p, main li{
+    line-height: 2.5;
+}
+#gallery img{
+    vertical-align: top;
+    width: 100%;
+}
+.left-col, .right-col{
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+}
+.right-col{
+margin-left: 1rem;
+}
+/* Footer  */
+footer{
+    margin-top:3rem;
+    padding: 3rem 0;
+    border-top:dotted 4px #FFFFFF;
+}
