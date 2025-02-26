@@ -11,14 +11,48 @@
 </head>
 <body>
     <div class="wrap">
-        <h1>Index File</h1>
-        <p>This is the lis of the files we worked on in class.</p>
-        <p>For the profile pages, if you like something, use the inspector to figure out the html and the CSS.</p>
+        <h1>Class Files</h1>
+        <p>This is the list of the files we worked on in class.</p>
+        <p>On the profile pages, if you like something, use the inspector to figure out the html and the CSS.</p>
         <h2>Demo files</h2>
         <p><a href="css-demo.html">CSS Demo</a></p>
         <p><a href="portrait-basic.html">Class Portrait</a></p>
         <p><a href="portrait-1.html">Portrait Example 1</a></p>
         <p><a href="portrait-2.html">Portrait Example 2</a></p>
+    </div>
+    <div class="wrap">
+        <h2>CSS Tips for the assignment</h2>
+        <h3>Adding a background to the page</h3>
+        <ul>
+            <li>If you want to add a background, don't add it to the body. Instead wrap all the content in another div with a class (I used wrapper) and add the background color to that class.</li>
+            <li>If you added a background and you have a space on the edges add <b>margin: 0;</b> and <b>padding: 0;</b> to the body.</li>
+        </ul>
+        <h3>Adding Google fonts</h3>
+        <ul>
+            <li>Select your Google fonts and get the code.</li>
+            <li>Paste the code on the head tag <b>before</b> the css link.</li>
+            <li>On the CSS, add the <b>font-family, font-weight etc</b> on the element you want to add the font to.</li>
+        </ul>
+        <h3>Centering Content</h3>
+        <ul>
+            <li>If you want to center content, you first have to wrap it on another container. It can be a div, section etc.</li>
+            <li>The centered content needs to have a fixed with, smaller than the parent container.</li>
+            <li>To center the smaller container you need to add <b>margin: auto</b> to the left and right. Remember that the first value would be the margin top and bottom and the second, left and right. If you add <b>margin: 20px auto;</b>, the margin will be 20px top and bottom and left and right will be calculated automatically.</li>
+        </ul>
+        <h3>Creating the Navigation</h3>
+        <ul>
+            <li>To add the anchor nav, you first need to add an id to the sections you want to link to. It has to be an id, not a class. </li>
+            <li>Create the navigation by adding the nav semantic tag and an <b>ol</b> list inside.</li>
+            <li>To remove the bullets on the list you add <b>list-style: none;</b> to the nav ul tag.</li>
+            <li>If you want to style the nav horizontally, add <b>display: inline-block;</b> to the li tag.</li>
+        </ul>
+        <h3>Styling links</h3>
+        <ul>
+            <li>To add a hover effect, you need to add the <b>:hover</b> pseudo-class to the element you want to style. In this case the <b>a</b> tag.</li>
+            <li>On the hover class, you can add any style you want to change when the mouse is over the element.</li>
+            <li>You can remove the underline on the <b>a</b> or the <b>a:hover</b> state. Just add the <b>text-decoration: underline;</b> or <b>text-decoration: none;</b> to add/remove.</li>
+        </ul>
+    
     </div>
 </body>
 </html>

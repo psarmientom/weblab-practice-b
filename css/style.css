@@ -9,15 +9,25 @@ body{
     font-size: 16px;
     margin: 0;
     padding: 0;
+    font-size: 1.2rem;
+    line-height: 1.2;
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: "Black Ops One", serif;
+  font-family: "Black Ops One", serif;
   font-weight: 400;
   font-style: normal;
   color: #19958a;
 }
-p{
-    font-size: 1.2rem;
+h1{
+    font-size: 3rem;
+    line-height: 1.2;
+}
+h2{
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+h3{
+    font-size: 1.8rem;
     line-height: 1.2;
 }
 .wrap{
@@ -34,3 +44,8 @@ a:hover{
     color: #42dccf;
     text-decoration: none;
 }
+ul li{
+    padding-bottom: .5rem;
+    line-height: 1.5;
+}
+
